@@ -23,11 +23,11 @@ function draw() {
 }
 
 function keyPressed() {
-  if (key === 'q') functionType = 0;
-  if (key === 'w') functionType = 1;
-  if (key === 'e') functionType = 2;
-  if (key === 'r') functionType = 3;
-  if (key === 't') functionType = 4;
+  if (key === 'q' || key === 'Q') functionType = 0;
+  if (key === 'w' || key === 'W') functionType = 1;
+  if (key === 'e' || key === 'E') functionType = 2;
+  if (key === 'r' || key === 'R') functionType = 3;
+  if (key === 't' || key === 'T') functionType = 4;
   if (key === '0') speedup = 0.0;
   if (key === '1') speedup = 1.0;
   if (key === '2') speedup = 2.0;
